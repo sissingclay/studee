@@ -1,0 +1,10 @@
+@import 'node_modules/css-reset-and-normalize/scss/reset-and-normalize';
+@import './settings/settings';
+@import './generic/generic';
+@import './utilities/utilities';
+
+// Components
+@import './components/header/component.header';
+@import './components/form/component.form';
+@import './components/btn/component.btn';
+@import './components/main/component.main';

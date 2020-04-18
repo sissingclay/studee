@@ -1,0 +1,44 @@
+.d-md-block {
+  display: block; }
+
+.h2 {
+  font-size: 2.125rem;
+  margin-bottom: 2.25rem; }
+
+.mb-md-5 {
+  margin-bottom: 5rem; }
+
+.header {
+  box-shadow: 0px 12px 14px -10px rgba(0, 0, 0, 0.1); }
+
+.btn {
+  width: auto; }
+  .btn.-google {
+    width: 100%; }
+  .btn.-facebook {
+    width: 100%; }
+
+.form__group {
+  margin-bottom: 1rem; }
+  .form__group.-bm {
+    margin-bottom: 1rem; }
+
+.main {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 48px); }
+  .main__constrain {
+    max-width: 410px;
+    margin: auto; }
+  .main__section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .main__section.-show-md {
+      display: flex; }
+    .main__section.-dark {
+      background-color: #efeaf4; }

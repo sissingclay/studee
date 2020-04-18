@@ -1,0 +1,9 @@
+.form {
+    &__group {
+        margin-bottom: $spacer;
+
+        &.-bm {
+            margin-bottom: $spacer;
+        }
+    }
+}

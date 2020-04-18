@@ -1,0 +1,17 @@
+{
+    "name": "studee",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm install && npm run css && browser-sync start -s 'app'",
+        "css": "node-sass src/scss/sign-in.scss -o app/css/ && node-sass src/scss/sign-in.medium.scss -o app/css"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "css-reset-and-normalize": "^2.1.0",
+        "node-sass": "^4.13.1"
+    }
+}

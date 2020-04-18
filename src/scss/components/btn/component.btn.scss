@@ -1,0 +1,42 @@
+.btn {
+    border-radius: $border-radius-lg;
+    background-color: $secondary;
+    width: 100%;
+    padding: $spacer * 0.8125 $spacer * 1.875;
+    color: $white;
+    border-color: transparent;
+    cursor: pointer;
+    transition: color $transition-speed $transition-feel,
+        background-color $transition-speed $transition-feel;
+
+    &:hover {
+        background-color: $secondary-hover;
+    }
+
+    &.-google {
+        background-color: transparent;
+        border-color: $google;
+        color: $google;
+
+        &:hover {
+            background-color: $google;
+            color: $white;
+        }
+    }
+
+    &.-facebook {
+        background-color: transparent;
+        border-color: $facebook;
+        color: $facebook;
+
+        &:hover {
+            background-color: $facebook;
+            color: $white;
+        }
+    }
+
+    &__icon {
+        vertical-align: bottom;
+        width: 20px;
+    }
+}

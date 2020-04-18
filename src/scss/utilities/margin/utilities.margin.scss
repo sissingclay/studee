@@ -1,0 +1,12 @@
+$sizes: 0, 0.25, 1.428, 1.5625, 2.5;
+
+@each $size in $sizes {
+    $i: index($sizes, $size);
+    .mb-#{$i - 1} {
+        margin-bottom: $spacer * $size;
+    }
+}
+
+.ml-1 {
+    margin-left: ($spacer * 0.5);
+}

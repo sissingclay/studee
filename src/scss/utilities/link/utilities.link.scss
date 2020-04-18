@@ -1,0 +1,23 @@
+.link {
+    color: $primary;
+    transition: color $transition-speed $transition-feel;
+    text-decoration: none;
+
+    &:hover {
+        color: $secondary;
+    }
+
+    &.-left-chevron {
+        background: url('/svg/chevron.svg') no-repeat left 2px;
+        background-size: 8px 12px;
+        padding-left: $spacer;
+    }
+
+    &.-secondary {
+        color: $secondary;
+
+        &:hover {
+            color: $secondary-hover;
+        }
+    }
+}

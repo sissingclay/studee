@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    flex-direction: column;
+
+    &__section {
+        width: 100%;
+        padding: ($spacer * 1.525) ($spacer * 1.25);
+
+        &.-hide {
+            display: none;
+        }
+    }
+}

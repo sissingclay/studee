@@ -1,0 +1,28 @@
+.main {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100% - 48px);
+
+    &__constrain {
+        max-width: 410px;
+        margin: auto;
+    }
+
+    &__section {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &.-show-md {
+            display: flex;
+        }
+
+        &.-dark {
+            background-color: $bg-colour-secondary;
+        }
+    }
+}

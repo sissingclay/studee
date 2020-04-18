@@ -1,0 +1,11 @@
+.p {
+    margin-bottom: $spacer;
+
+    &.-small {
+        font-size: 0.875rem;
+    }
+
+    &.-big {
+        font-size: 1.375rem;
+    }
+}
